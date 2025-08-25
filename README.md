@@ -1,80 +1,85 @@
-Synthetic Credit Card Default Dataset — Powered by Syncora 
+# Synthetic Credit Card Default Dataset — Powered by Syncora  
 
-High-Fidelity Synthetic Financial Dataset for AI, ML Modeling 
+High-Fidelity Synthetic Financial Dataset for AI, ML Modeling & Risk  
 
-& Risk 
+---
 
-About This Dataset 
+## About This Dataset
 
-This dataset contains high-fidelity synthetic records simulating credit card client behavior in Taiwan, generated using Syncora.ai — a next-generation synthetic data generation platform designed for privacy-safe AI development. 
+This dataset contains high-fidelity synthetic records simulating credit card client behavior in Taiwan, generated using Syncora.ai, a next-generation synthetic data generation platform designed for privacy-safe AI development.  
 
-Modeled on the popular UCI Credit Card Default dataset (2005), this synthetic version maintains statistical realism while removing all privacy risks, making it ideal for: 
+Modeled on the popular UCI Credit Card Default dataset (2005), this synthetic version maintains statistical realism while removing all privacy risks, making it ideal for:  
 
-Credit risk modeling 
+- Credit risk modeling  
+- Machine learning classification  
+- Explainable AI  
+- Data science education & experimentation  
 
-Machine learning classification 
+This dataset is perfect for AI engineers, developers, and financial data scientists who need realistic, high-utility datasets without regulatory concerns.  
 
-Explainable AI 
+---
 
-Data science education & experimentation 
+## Dataset Context & Features
 
-This dataset is perfect for AI engineers, developers, and financial data scientists who need realistic, high-utility datasets without regulatory concerns. 
+Based on a real-world financial scenario from Taiwan, this dataset captures:  
 
-Dataset Context & Features 
+- **Demographics**: age, sex, education, marital status  
+- **Credit behavior**: credit limits, bill amounts, repayments  
+- **Default status**: binary target  
 
-Based on a real-world financial scenario from Taiwan, this dataset captures: 
+All records are fully synthetic but mirror real-world financial behavior, making them suitable for training AI models in finance, without needing access to sensitive or regulated data.  
 
-Demographics (age, sex, education, marital status) 
+---
 
-Credit behavior (credit limits, bill amounts, repayments) 
+## Machine Learning & AI Use Cases
 
-Default status (binary target) 
+- **Binary Classification**: Predict default risk using logistic regression, random forests, XGBoost, and other ML algorithms.  
+- **Feature Engineering**: Extract behavioral features (e.g., payment consistency, credit utilization trends).  
+- **Explainable AI (XAI)**: Use LIME, SHAP, or ELI5 to explain prediction outputs and identify high-risk patterns.  
+- **Benchmarking Models**: Compare accuracy, precision, recall across multiple classification techniques on synthetic financial data.  
+- **Synthetic Data Validation**: Test model performance using synthetic data vs real-world data and validate data utility.  
 
-All records are fully synthetic but mirror real-world financial behavior, making them suitable for training AI models in finance, without needing access to sensitive or regulated data. 
+---
 
-Machine Learning & AI Use Cases 
+## Why Syncora?
 
-Binary Classification 
-Predict default risk using logistic regression, random forests, XGBoost, and other ML algorithms. 
+Syncora.ai is a powerful synthetic data generation tool designed for developers and enterprises building privacy-first AI systems. Key benefits include:  
 
-Feature Engineering 
-Extract behavioral features (e.g., payment consistency, credit utilization trends). 
+- High similarity to real-world data distributions  
+- 0% privacy leakage — 100% synthetic  
+- Preserved feature relationships for ML-readiness  
+- Agentic AI-driven synthesis for scalable datasets  
+- Compliant with HIPAA, DPDP, GDPR, and more  
 
-Explainable AI (XAI) 
-Use LIME, SHAP, or ELI5 to explain prediction outputs and identify high-risk patterns. 
+Unlike generic data generators, Syncora provides enterprise-grade synthetic datasets ready for AI prototyping, testing, and sharing — with full data traceability.  
 
-Benchmarking Models 
-Compare accuracy, precision, recall across multiple classification techniques on synthetic financial data. 
+---
 
-Synthetic Data Validation 
-Test model performance using synthetic data vs real-world data and validate data utility. 
+## Ideas for Exploration
 
-Why Syncora? 
+- Which features most influence default risk in credit scoring models?  
+- How do variables like education, age, or marital status correlate with repayment behavior?  
+- Can synthetic datasets like this one help reduce bias in financial AI models?  
 
-Syncora.ai is a powerful synthetic data generation tool designed for developers and enterprises building privacy-first AI systems. Key benefits include: 
+---
 
-High similarity to real-world data distributions 
+## 📦 What This Repo Contains
 
-0% privacy leakage — 100% synthetic 
+- **Synthetic Credit Card Default Dataset** – CSV format, ready for ML modeling.  
+  [**Download Dataset**](https://github.com/syncora-ai/synthetic-credit-default-syncora/blob/main/UCI_Syncora_Synthetic.csv)
 
-Preserved feature relationships for ML-readiness 
+- **Jupyter Notebook** – Exploration and usage guide for the dataset.  
+  [**Open Notebook**](https://github.com/syncora-ai/synthetic-credit-default-syncora/blob/main/Scripts/UCI_Syncora_Synthetic.ipynb)
 
-Agentic AI-driven synthesis for scalable datasets 
+---
 
-Compliant with HIPAA, DPDP, GDPR, and more 
+## 🔗 Generate Your Own Synthetic Data
 
-Unlike generic data generators, Syncora provides enterprise-grade synthetic datasets ready for AI prototyping, testing, and sharing — with full data traceability. 
+Take your AI projects to the next level with **Syncora.ai**:  
+[**→ Generate your own synthetic datasets now**](https://app.syncora.ai/login)  
 
-Ideas for Exploration 
+---
 
-Which features most influence default risk in credit scoring models? 
+## Licensing & Compliance
 
-How do variables like education, age, or marital status correlate with repayment behavior? 
-
-Can synthetic datasets like this one help reduce bias in financial AI models? 
-
-Licensing & Compliance 
-
-This dataset is 100% synthetic and contains no real customer information. It is safe for public use in education, research, open-source contributions, and AI development. 
-
- 
+This dataset is 100% synthetic and contains no real customer information. It is safe for public use in education, research, open-source contributions, and AI development.
